@@ -31,7 +31,7 @@ final class CrawlerSelectorTextContains extends Constraint
             return \sprintf('the text "%s" of the node matching selector "%s" contains "%s"', $this->nodeText, $this->selector, $this->expectedText);
         }
 
-        return \sprintf('the Crawler has a node matching selector "%s"', $this->selector);
+        return \sprintf('the Crawler has _NO_ node matching selector "%s"', $this->selector);
     }
 
     /**
